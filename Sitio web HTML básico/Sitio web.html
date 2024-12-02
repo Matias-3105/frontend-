@@ -9,27 +9,32 @@
 <body>
 
     <!-- Encabezado -->
-        <header>
+    <header class="header">
             <!-- Navegación -->
-    <nav class="nav">
-        <div id="home" class="img-contenedor">
-            <img src="#" alt="#">
+        <div  class="header__logo-container">
+            <img class="header__logo" src="M.png" alt="#">
+            <input class="header__input" type="text" placeholder="Your name">
         </div>
-        <h3 >Your name</h3>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#articles">Articles</a></li>
-            <li><a href="#contact">Contact</a></li>
+        <nav class="header__nav">
+        <ul class="header__nav-list">
+            <li class="header__nav-item"><a href="#home">Home</a></li>
+            <li class="header__nav-item"><a href="#projects">Projects</a></li>
+            <li class="header__nav-item"><a href="#articles">Articles</a></li>
+            <li class="header__nav-item"><a href="#contact">Contact</a></li>
         </ul>
-    </nav>
-            <h1>Fronted Developer</h1>
-            <p>html only with proper layout, no styling</p>
-        </header>
+        </nav>
+    </header>
     <!-- Contenido Principal -->
     <main>
+            <section class="container-profile" id="home">
+            <div class="profile">
+            <h1>Fronted Developer</h1>
+            <p>html only with proper layout, no styling</p>
+            </div>
+            </section>
+    <div class="container-portfolio">
         <div class="container-projects">
-            <div></div>
+            <div class="projects">
             <section id="projects">
             <h2>Projects</h2>
             <p>HTML Only Profile</p>
@@ -65,54 +70,56 @@
             </section>
             </div>
         </div>
-        <div class="container-contacts">
-        <h2>Reviews from my Teachers</h2>
-        <div class="words-Jane">
-            <div class="teachers">
-                <div class="words-teahcers">
-                <section id="contact">
-                    <p>John doe was a brilliant student; always stood out with his assignments.</p>
-                    <h3>Jana Doe</h3>
-                    <h3>Assistant Professor</h3>
-                </section>
-                </div>
-                <div class="words-teahcers">
-                    <section id="contact">
-                        <p>John doe was a brilliant student; always stood out with his assignments.</p>
-                        <h3>Jana Doe</h3>
-                        <h3>Assistant Professor</h3>
+        <div class="container-education">
+                        <h3>Education</h3>
+                        <p>
+                            Graduated with 3.76 out of 4 CGPA. Won Acme Hackathon. Organized 30 sessions. 
+                        </p>
+                        <h4>Courses I took:</h4>
+                        <ul class="education__list">
+                            <li class="education__item">Object Oriented Programming</li>
+                            <li class="education__item">Data Structures and Algorithms</li>
+                            <li class="education__item">Web Engineering</li>
+                            <li class="education__item">Artificial Intelligence</li>
+                            <li class="education__item">Human Computer Interaction</li>
+                            <li class="education__item">Computer Graphics</li>
+                            <li class="education__item">Database Management Systems</li>
+                            <li class="education__item">Distributed Database Systems</li>
+                            <li class="education__item">Discreet Mathematics</li>
+                        </ul>
                     </section>
                 </div>
-                <div class="words-teahcers">
-                    <section id="contact">
-                        <p>John doe was a brilliant student; always stood out with his assignments.</p>
-                        <h3>Jana Doe</h3>
-                        <h3>Assistant Professor</h3>
-                    </section>
-                </div>
-            </div>
-        </div>
-        </div>
+    </div>
     </main>
 
     <!-- Barra Lateral -->
     <aside>
-        <h3>Education</h3>
-        <p>
-            Graduated with 3.76 out of 4 CGPA. Won Acme Hackathon. Organized 30 sessions. 
-        </p>
-        <h4>Courses I took:</h4>
-        <ul>
-            <li>Object Oriented Programming</li>
-            <li>Data Structures and Algorithms</li>
-            <li>Web Engineering</li>
-            <li>Artificial Intelligence</li>
-            <li>Human Computer Interaction</li>
-            <li>Computer Graphics</li>
-            <li>Database Management Systems</li>
-            <li>Distributed Database Systems</li>
-            <li>Discreet Mathematics</li>
-        </ul>
+        <div class="container-reviews">
+            <h2>Reviews from my Teachers</h2>
+                <div class="teachers">
+                    <div class="words-teahcers">
+                    <section id="contact">
+                        <p>John doe was a brilliant student; always stood out with his assignments.</p>
+                        <h3>Jana Doe</h3>
+                        <h3>Assistant Professor</h3>
+                    </section>
+                    </div>
+                    <div class="words-teahcers">
+                        <section id="contact">
+                            <p>John doe was a brilliant student; always stood out with his assignments.</p>
+                            <h3>Jana Doe</h3>
+                            <h3>Assistant Professor</h3>
+                        </section>
+                    </div>
+                    <div class="words-teahcers">
+                        <section id="contact">
+                            <p>John doe was a brilliant student; always stood out with his assignments.</p>
+                            <h3>Jana Doe</h3>
+                            <h3>Assistant Professor</h3>
+                        </section>
+                    </div>
+                </div>
+            </div>
     </aside>
 
     <!-- Pie de Página -->
