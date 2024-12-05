@@ -1,0 +1,216 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:  #D9DBE3;
+    color: #000e;
+}
+.container__form{
+    width: 700px;
+    height: 600px;
+    border-radius: 20px;
+    padding: 40px;
+    display: flex;
+    background-color: #fff;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+}
+
+.container__form-input{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.name{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.name label{
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+.name input{
+    width: 95%;
+    height: 45px;
+    outline: none;
+    border-radius: 7px;
+    font-size: 18px;
+    text-align: center;
+}
+.email{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.email label{
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+.email input{
+    width: 95%;
+    height: 45px;
+    outline: none;
+    border-radius: 7px;
+    font-size: 18px;
+    text-align: center;
+}
+.password{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.password label{
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+.container__password{
+    width: 95%;
+    height: 45px;
+    outline: none;
+    border-radius: 7px;
+    font-size: 18px;
+    text-align: center;
+    display: flex;
+    justify-content: flex-end;
+    border: 1px solid #000;
+}
+.confirm-password{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.enter__password{
+    width: 180px;
+    outline: none;
+    border: none;
+    padding-left: 0;
+    font-size:20px;
+}
+.bx{
+    font-size: 30px;
+    transform: translateX(-15px);
+    cursor: pointer;
+}
+.confirm-password label{
+    font-size: 20px;
+    margin-bottom: 8px;
+
+}
+.container__confirm{
+    width: 95%;
+    height: 45px;
+    outline: none;
+    border-radius: 7px;
+    font-size: 18px;
+    text-align: center;
+    display: flex;
+    justify-content: flex-end;
+    border: 1px solid #000;
+}
+.confirm__password{
+    width: 180px;
+    outline: none;
+    border: none;
+    padding-left: 0;
+    font-size:20px;
+}
+.container__button{
+    width: 100%;
+    height: 100px;
+}
+.container__button input{
+    width: 80%;
+    height: 45px;
+    outline: none;
+    border: none;
+    border-radius: 7px;
+    font-size: 18px;
+    background-color: #000b;
+    color: #fff;
+}
+.container__button input:hover{
+    background-color:#ececec ;
+    color: #000b;
+}
+
+
+/* CIRCLE */
+.porcentual__container{
+    position: relative;
+    display: flex;
+    margin: 20px 0;
+}
+svg{
+    width: 100%;
+}
+.porcentual__container span{
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+circle{
+    fill: none;
+    stroke-width: 7;
+    stroke: #ABABAB;
+    stroke-dasharray: 100 100;    
+    transform: rotate(90deg);
+    transform-origin: 50%;
+}
+span{
+    color: #000b;
+}
+
+circle:nth-child(2){
+    stroke: #000b;
+    stroke-dasharray: 65 100;
+}
+.container__profile{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile__title{
+    margin: 20px;
+
+}
+.projects{
+    width: 250px;
+    height: 250px;
+    background-color: #ececec;
+    border-radius: 20px;
+}
+.container__ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+.container__li{
+    margin-top: 15px;
+    padding-left: 15px;
+}
+.done{
+    text-decoration: line-through;
+    color: #0004;
+}
+
+
