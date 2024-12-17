@@ -9,3 +9,5 @@ Testimonial Cards-->: https://roadmap.sh/projects/testimonial-cards<br>
 Datepicker UI-->: https://roadmap.sh/projects/datepicker-ui<br>
 Accessible Form UI-->: https://roadmap.sh/projects/accessible-form-ui<br>
 Image Grid Layout-->: https://roadmap.sh/projects/image-grid<br>
+Tabs-->: https://roadmap.sh/projects/simple-tabs<br>
+
