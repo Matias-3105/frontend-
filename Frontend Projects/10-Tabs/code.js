@@ -12,7 +12,6 @@ let segundoP = secondP.innerText;
 let caja = box.innerText;
 
 
-
 function clickFirstTab(){
     firtP.innerText = primerP;
     box.innerText = caja;
